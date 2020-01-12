@@ -1,0 +1,11 @@
+
+- name: configure nginx
+  template:
+    src: nginx.conf.j2
+    dest: "{{nginx.config_dir}}/nginx.conf"
+    owner: root
+    group: root
+    mode: 0600
+  tags:
+    - configure
+

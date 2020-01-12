@@ -1,0 +1,8 @@
+# Stopping the nginx server 
+- name: stopping nginx server 
+  command: service nginx {{item}}
+  loop:
+   - stop 
+
+  tags:
+   - stop

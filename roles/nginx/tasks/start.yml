@@ -1,0 +1,10 @@
+# Starting the nginx server 
+- name: starting nginx server 
+  command: service nginx {{item}}
+  loop:
+   - start 
+   - status
+   - restart 
+
+  tags:
+   - start 

@@ -1,0 +1,7 @@
+# role variables.
+
+
+nginx:
+  config_dir: /etc/nginx
+  worker_process: 2
+

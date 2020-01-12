@@ -1,0 +1,8 @@
+#Installing nginx from the Internet 
+
+- name: Install a nginx package.
+  apt:
+    name: nginx
+    state: present 
+  tags:
+    - setup 
