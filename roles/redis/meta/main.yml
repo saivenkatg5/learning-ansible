@@ -1,6 +1,6 @@
 galaxy_info:
   author: Venkhat
-  description: A role to deploy Ngnix.
+  description: A role to deploy Redis.
   company: NA 
   license: Apache License 2.0
   min_ansible_version: 2.7.0
